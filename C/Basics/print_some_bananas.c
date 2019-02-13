@@ -9,7 +9,7 @@ int main(){
   // banana is of type char*. Which is basically what you would use
   // as the type for Strings.  Strings are arrays of char (character).
   // We'll explore chars and strings in more detail later.
-  char *banana = "Banana";
+  const char *banana = "Banana";
 
   // This is the basic structure of a for loop.
   for(int i = 0; i < 10; i++) {
@@ -20,7 +20,7 @@ int main(){
     // We'll explore this in more detials later.
     printf("%d More banana!\n", i);
   }
-  
+
   // With printf, if you don't end with a \n, it doesn't add a new line character
   // Which means any further prints will be on the same line
   printf("%d bananas...", total);
