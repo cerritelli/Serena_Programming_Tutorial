@@ -1,3 +1,11 @@
+Start with looking at print_some_bananas
+
+Then move on to basic_arrays
+
+Then integers
+
+
+
 To run print_some_bananas.c, you first have to compile it.
 
 `gcc print_some_bananas.c`
@@ -21,3 +29,7 @@ You can also compile it to a specific name
 `gcc print_some_bananas.c -o Banana`
 
 `./Banana`
+
+
+
+
